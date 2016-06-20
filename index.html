@@ -8,19 +8,19 @@
   </div>
 
   <div class="col-sm-4">
-    <form>
+    <form onSubmit="alert('Thank you for your feedback.')">
     <h1>Questionnaire</h1>
     <fieldset class="form-group">
-      <label for="exampleInputName" class="control-label">First Name</label>
+      <label for="exampleInputName" class="control-label"><strong>First Name</strong></label>
       <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
     </fieldset>
     <fieldset class="form-group">
-      <label for="exampleInputEmail1" class="control-label">Email address</label>
+      <label for="exampleInputEmail1" class="control-label"><strong>Email address</strong></label>
       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
       <small class="text-muted">We'll never share your email with anyone else.</small>
     </fieldset>
     <fieldset class="form-group">
-      <label for="exampleSelect1">Which age group are you in?</label>
+      <label for="exampleSelect1"><strong>Which age group are you in?</strong></label>
       <select class="form-control" id="exampleSelect1">
         <option value="" disabled selected hidden>Please Choose...</option>
         <option>Under 18</option>
@@ -31,7 +31,7 @@
       </select>
     </fieldset>
     <fieldset class="form-group">
-      <label for="exampleSelect1">How many apps do you currently have on your smartphone?</label>
+      <label for="exampleSelect1"><strong>How many apps do you currently have on your smartphone?</strong></label>
       <select class="form-control" id="exampleSelect1">
         <option value="" disabled selected hidden>Please Choose...</option>
         <option>0 - 4</option>
@@ -41,57 +41,57 @@
       </select>
     </fieldset>
     <fieldset class="form-group">
-      <label for="exampleInputName" class="control-label">In a typical week, about how many songs or other music files do you download from the internet?</label>
+      <label for="exampleInputName" class="control-label"><strong>In a typical week, about how many songs or other music files do you download from the internet?</strong></label>
       <input type="number" class="form-control" id="exampleInputNumber" placeholder="Enter amount" min="0" max="10000">
     </fieldset>
     <fieldset>
       <div class="checkbox">
-        <p>Which type of apps do you currently have on your digital devices (computer, tablets, phones, etc.)? (Check all that apply)</p>
+        <p><strong>Which type of apps do you currently have on your digital devices (computer, tablets, phones, etc.)? (Check all that apply)</strong></p>
         <label>
           <input type="checkbox" value="">
-          Entertainment apps (movie trailers, celebrity gossip, radio station guides, etc.)
+          Entertainment
         </label>
       </div>
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          News apps (local news, national headlines, technology announcements, etc.)
+          News
         </label>
       </div>
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          Game apps (puzzles, charades, etc.)
+          Games
         </label>
       </div>
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          Sports apps (sports schedules, scores, headlines, etc.)
+          Sports
         </label>
       </div>
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          Search tool apps (directions, phone numbers, recipes, etc.)
+          Search tools
         </label>
       </div>
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-           Travel apps (airplane tickets, tourist guides, public transportation info, etc.)
+           Travel
         </label>
       </div>
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          Social networking apps (location check-ins, friend status updates, etc.)
+          Social networking
         </label>
       </div>
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          Productivity apps (calendar, to do list, price checker, etc.)
+          Productivity apps (calendar, to do list, etc.)
         </label>
       </div>
       <div class="checkbox">
@@ -103,7 +103,7 @@
       <div class="checkbox">
         <label>
           <input type="checkbox" value="">
-          Weather apps (local forecasts, natural disaster updates, etc.)
+          Weather
         </label>
       </div>
       <div class="checkbox">
@@ -111,9 +111,69 @@
           <input type="checkbox" value="">
           Other (please specify)
         </label>
+        <textarea class="form-control" id="exampleTextarea" rows="2"></textarea>
       </div>
-
-
+    </fieldset> 
+    <fieldset>
+      <div class="c-inputs-stacked">
+      <p><strong>In a typical day, which types of apps do you use on your digital devices (computer, tablets, phones, etc.) most often?</strong></p>
+        <label class="c-input c-radio">
+          <input id="radioStacked1" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Travel
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          News
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Search tools
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Sports
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Productivity apps (calendar, to do list, etc.)
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Social networking
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Utility apps (calculate, convert, translate, etc.)
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Games
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Entertainment
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Weather
+        </label>
+        <label class="c-input c-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio">
+          <span class="c-indicator"></span>
+          Other (please specify)
+        </label>
+        <textarea class="form-control" id="exampleTextarea" rows="2"></textarea>
+      </div>
     </fieldset> 
 
   <div class="col-sm-4">

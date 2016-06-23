@@ -108,10 +108,10 @@
       </div>
       <div class="checkbox">
         <label>
-          <input type="checkbox" name="Question4" value="Other">
+          <input type="checkbox" name="Question4" value="Other" onclick="document.getElementById('exampleTextarea3').removeAttribute('disabled')">
           Other (please specify)
         </label>
-        <textarea class="form-control" id="exampleTextarea" rows="2" name="Question4" value="Other"></textarea>
+        <textarea class="form-control" id="exampleTextarea3" rows="2" name="Question4" value="Other" disabled></textarea>
       </div>
     </fieldset> 
     <fieldset>
@@ -168,11 +168,11 @@
           Weather
         </label>
         <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Other" type="radio">
+          <input id="radioStacked2" name="Question5" value="Other" type="radio" onclick="document.getElementById('exampleTextarea1').removeAttribute('disabled')">
           <span class="c-indicator"></span>
           Other (please specify)
         </label>
-        <textarea class="form-control" id="exampleTextarea" rows="2" name="Question5" value="Other"></textarea>
+        <textarea class="form-control" id="exampleTextarea1" rows="2" name="Question5" value="Other" disabled></textarea>
       </div>
     </fieldset> 
 

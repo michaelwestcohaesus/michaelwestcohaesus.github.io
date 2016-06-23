@@ -17,7 +17,7 @@ $.fn.serializeObject = function()
 
 $(function() {
     $('form').submit(function() {
-        $('#result').text(JSON.stringify($('form').serializeObject()));
+        $('#result').text(JSON.stringify($('form').serializeObject(), undefined, 2));
         return false;
     });
 });

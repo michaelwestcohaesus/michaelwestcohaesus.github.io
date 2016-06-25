@@ -4,194 +4,215 @@
 	<title>Michael's Questionnaire</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 </head>
-  <div class="col-sm-4">
-  </div>
-
-  <div class="col-sm-4">
-    <form action="" method="post">
-    <h1>Questionnaire</h1>
-    <fieldset class="form-group">
-      <label for="exampleInputName" class="control-label"><strong>First Name</strong></label>
-      <input type="text" name="First Name" class="form-control" id="exampleInputName" placeholder="Enter name">
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="exampleInputEmail1" class="control-label"><strong>Email address</strong></label>
-      <input type="email" name="Email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-      <small class="text-muted">We'll never share your email with anyone else.</small>
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="exampleSelect1"><strong>Which age group are you in?</strong></label>
-      <select class="form-control" id="exampleSelect1" name="Question1">
-        <option value="" disabled selected hidden>Please Choose...</option>
-        <option value="Under 18">Under 18</option>
-        <option value="19 - 24">19 - 24</option>
-        <option value="25 - 30">25 - 30</option>
-        <option value="31 - 36">31 - 36</option>
-        <option value="37 and over">37 and over</option>
-      </select>
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="exampleSelect1"><strong>How many apps do you currently have on your smartphone?</strong></label>
-      <select class="form-control" id="exampleSelect1" name="Question2">
-        <option value="" disabled selected hidden>Please Choose...</option>
-        <option value="0 - 4">0 - 4</option>
-        <option value="5 - 9">5 - 9</option>
-        <option value="10 - 19">10 - 19</option>
-        <option value="20 or more">20 or more</option>
-      </select>
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="exampleInputName" class="control-label"><strong>In a typical week, about how many songs or other music files do you download from the internet?</strong></label>
-      <input type="number" class="form-control" id="exampleInputNumber" placeholder="Enter amount" min="0" max="10000" name="Question3">
-    </fieldset>
-    <fieldset>
-      <div class="checkbox">
-        <p><strong>Which type of apps do you currently have on your digital devices (computer, tablets, phones, etc.)? (Check all that apply)</strong></p>
-        <label>
-          <input type="checkbox" name="Question4" value="Entertainment">
-          Entertainment
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="News">
-          News
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Games">
-          Games
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Sports">
-          Sports
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Search Tools">
-          Search tools
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Travel">
-           Travel
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Social Networking">
-          Social networking
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Productivity">
-          Productivity apps (calendar, to do list, etc.)
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Utility">
-          Utility apps (calculate, convert, translate, etc.)
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Weather">
-          Weather
-        </label>
-      </div>
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="Question4" value="Other" onclick="document.getElementById('exampleTextarea3').removeAttribute('disabled')">
-          Other (please specify)
-        </label>
-        <textarea class="form-control" id="exampleTextarea3" rows="2" name="Question4" value="Other" disabled></textarea>
-      </div>
-    </fieldset> 
-    <fieldset>
-      <div class="c-inputs-stacked">
-      <p><strong>In a typical day, which types of apps do you use on your digital devices (computer, tablets, phones, etc.) most often?</strong></p>
-        <label class="c-input c-radio">
-          <input id="radioStacked1" name="Question5" value="Travel" type="radio">
-          <span class="c-indicator"></span>
-          Travel
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="News" type="radio">
-          <span class="c-indicator"></span>
-          News
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Search Tools" type="radio">
-          <span class="c-indicator"></span>
-          Search tools
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Sports" type="radio">
-          <span class="c-indicator"></span>
-          Sports
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Productivity" type="radio">
-          <span class="c-indicator"></span>
-          Productivity apps (calendar, to do list, etc.)
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Social Networking" type="radio">
-          <span class="c-indicator"></span>
-          Social networking
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Utility" type="radio">
-          <span class="c-indicator"></span>
-          Utility apps (calculate, convert, translate, etc.)
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Games" type="radio">
-          <span class="c-indicator"></span>
-          Games
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Entertainment" type="radio">
-          <span class="c-indicator"></span>
-          Entertainment
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Weather" type="radio">
-          <span class="c-indicator"></span>
-          Weather
-        </label>
-        <label class="c-input c-radio">
-          <input id="radioStacked2" name="Question5" value="Other" type="radio" onclick="document.getElementById('exampleTextarea1').removeAttribute('disabled')">
-          <span class="c-indicator"></span>
-          Other (please specify)
-        </label>
-        <textarea class="form-control" id="exampleTextarea1" rows="2" name="Question5" value="Other" disabled></textarea>
-      </div>
-    </fieldset> 
-
-  <div class="col-sm-4">
-  </div>
+  <div class="col-sm-12"">
     <div class="col-sm-4">
-          <button type="submit" class="btn btn-primary">Submit</button>
     </div>
-  <div class="col-sm-4">
-  </div>
-  </form>
-  <div class="col-sm-12">
-    <h3>JSON Output</h3>
-    <pre id="result" style="background: #eee;height: 250px; overflow: auto; white-space: pre-wrap;">
-    </pre>
+    <div class="col-sm-4" style="border-color: black; border: 2px solid black; border-radius: 25px;">
+      <form action="" method="post">
+      <h1 style="text-align: center;">Questionnaire</h1>
+      <fieldset class="form-group">
+        <label for="exampleInputName" class="control-label"><strong>First Name</strong></label>
+        <input type="text" name="First Name" class="form-control" id="exampleInputName" placeholder="Enter name" required>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1" class="control-label"><strong>Email address</strong></label>
+        <input type="email" name="Email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
+        <small class="text-muted">We'll never share your email with anyone else.</small>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1"><strong>Which age group are you in?</strong></label>
+        <select class="form-control" id="exampleSelect1" name="Question1" required>
+          <option value="" disabled selected hidden>Please Choose...</option>
+          <option value="Under 18">Under 18</option>
+          <option value="19 - 24">19 - 24</option>
+          <option value="25 - 30">25 - 30</option>
+          <option value="31 - 36">31 - 36</option>
+          <option value="37 and over">37 and over</option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1"><strong>How many apps do you currently have on your smartphone?</strong></label>
+        <select class="form-control" id="exampleSelect1" name="Question2" required>
+          <option value="" disabled selected hidden>Please Choose...</option>
+          <option value="0 - 4">0 - 4</option>
+          <option value="5 - 9">5 - 9</option>
+          <option value="10 - 19">10 - 19</option>
+          <option value="20 or more">20 or more</option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputName" class="control-label"><strong>In a typical week, about how many songs or other music files do you download from the internet?</strong></label>
+        <input type="number" class="form-control" id="exampleInputNumber" placeholder="Enter amount" min="0" max="10000" name="Question3" required>
+      </fieldset>
+      <fieldset required>
+        <div class="checkbox">
+          <p><strong>Which type of apps do you currently have on your digital devices (computer, tablets, phones, etc.)? (Check all that apply)</strong></p>
+          <label>
+            <input type="checkbox" name="Question4" value="Entertainment">
+            Entertainment
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="News">
+            News
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Games">
+            Games
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Sports">
+            Sports
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Search Tools">
+            Search tools
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Travel">
+             Travel
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Social Networking">
+            Social networking
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Productivity">
+            Productivity apps (calendar, to do list, etc.)
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Utility">
+            Utility apps (calculate, convert, translate, etc.)
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="Question4" value="Weather">
+            Weather
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="checkboxother" name="Question4" value="Other" onchange="setCheckbox();">
+            Other (please specify)
+          </label>
+          <textarea class="form-control" id="exampleTextarea3" rows="2" name="Question4" value="Other" disabled="disabled"></textarea>
+        </div>
+      </fieldset> 
+      <fieldset>
+        <div class="c-inputs-stacked">
+        <p><strong>In a typical day, which types of apps do you use on your digital devices (computer, tablets, phones, etc.) most often?</strong></p>
+          <label class="c-input c-radio">
+            <input id="radioStacked1" name="Question5" value="Travel" type="radio" onchange="setRadio();" required>
+            <span class="c-indicator"></span>
+            Travel
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="News" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            News
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Search Tools" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Search tools
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Sports" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Sports
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Productivity" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Productivity apps (calendar, to do list, etc.)
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Social Networking" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Social networking
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Utility" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Utility apps (calculate, convert, translate, etc.)
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Games" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Games
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Entertainment" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Entertainment
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked2" name="Question5" value="Weather" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Weather
+          </label>
+          <label class="c-input c-radio">
+            <input id="radioStacked5" name="Question5" value="Other" type="radio" onchange="setRadio();">
+            <span class="c-indicator"></span>
+            Other (please specify)
+          </label>
+          <textarea class="form-control" id="exampleTextarea1" rows="2" name="Question5" value="Other" disabled="disabled"></textarea>
+        </div>
+      </fieldset> 
+    <div class="col-sm-4">
+    </div>
+      <div class="col-sm-4" style="padding-top: 10px;">
+            <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    <div class="col-sm-4">
+    </div>
+    </form>
+    <div class="col-sm-12" style="padding-top: 15px;">
+      <h3 style="text-align: center;">JSON Output</h3>
+      <pre id="output" style="background: #eee;height: 250px; overflow: auto; white-space: pre-wrap; border: 2px solid black; border-radius: 10px;">
+      </pre>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    </div>
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 <script src="assets/js/serializeObject.js" type="text/javascript" charset="utf-8" async defer></script>
+<script>
+  function setCheckbox(){
+    var el = document.getElementById("checkboxother");
+    if(el.checked)
+      document.getElementById("exampleTextarea3").disabled = false;
+    else
+      document.getElementById("exampleTextarea3").disabled = true;    
+  }  
+</script>
+<script>
+  function setRadio(){
+    var el = document.getElementById("radioStacked5");
+    if(el.checked)
+      document.getElementById("exampleTextarea1").disabled = false;
+    else
+      document.getElementById("exampleTextarea1").disabled = true;    
+  }  
+</script>
 </body>
 </html>

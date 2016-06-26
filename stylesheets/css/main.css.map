@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAEA,MAAO;EACN,UAAU,EAHK,OAAO;EAItB,UAAU,EAAE,MAAM;;AAGnB,cAAe;EACd,YAAY,EAAE,KAAK;EACnB,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;;AAGpB,OAAQ;EACP,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,IAAI;EACd,WAAW,EAAE,QAAQ;EACrB,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;;AAGpB,WAAY;EACX,WAAW,EAAE,IAAI;;AAGlB,OAAQ;EACP,WAAW,EAAE,IAAI",
-"sources": ["../scss/main.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAEA,MACC,mBAHsB,AAItB,eAAiB,CACjB,AAED,eACC,kBAAoB,AACpB,sBAAwB,AACxB,kBAAoB,CACpB,AAED,QACC,gBAAiB,AACjB,aAAc,AACd,cAAe,AACf,qBAAsB,AACtB,sBAAwB,AACxB,kBAAoB,CACpB,AAED,YACC,gBAAkB,CAClB,AAED,QACC,gBAAkB,CAClB","file":"main.css","sourcesContent":["$primary-color: #FFFF00;\n\nh1, h3 {\n\tfont-color: $primary-color;\n\ttext-align: left;\n}\n\n#mainContainer {\n\tborder-color: black; \n\tborder: 2px solid black; \n\tborder-radius: 25px;\n}\n\n#output {\n\tbackground: #eee;\n\theight: 250px;\n\toverflow: auto;\n\twhite-space: pre-wrap;\n\tborder: 2px solid black;\n\tborder-radius: 10px;\n}\n\n#jsonOutput {\n\tpadding-top: 15px;\n}\n\n#submit {\n\tpadding-top: 10px;\n}"],"sourceRoot":"/source/"}

@@ -3,13 +3,15 @@
 <head>
 	<title>Michael's Questionnaire</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheets/css/main.css">
 </head>
-  <div class="col-sm-12"">
+<body>
+  <div class="col-sm-12">
     <div class="col-sm-4">
     </div>
-    <div class="col-sm-4" style="border-color: black; border: 2px solid black; border-radius: 25px;">
+    <div class="col-sm-4" id="mainContainer">
       <form action="" method="post">
-      <h1 style="text-align: center;">Questionnaire</h1>
+      <h1>Questionnaire</h1>
       <fieldset class="form-group">
         <label for="exampleInputName" class="control-label"><strong>First Name</strong></label>
         <input type="text" name="First Name" class="form-control" id="exampleInputName" placeholder="Enter name" required>
@@ -177,25 +179,24 @@
       </fieldset> 
     <div class="col-sm-4">
     </div>
-      <div class="col-sm-4" style="padding-top: 10px;">
+      <div class="col-sm-4" id="submit">
             <button type="submit" class="btn btn-primary">Submit</button>
       </div>
     <div class="col-sm-4">
     </div>
     </form>
-    <div class="col-sm-12" style="padding-top: 15px;">
-      <h3 style="text-align: center;">JSON Output</h3>
-      <pre id="output" style="background: #eee;height: 250px; overflow: auto; white-space: pre-wrap; border: 2px solid black; border-radius: 10px;">
+    <div class="col-sm-12" id="jsonOutput">
+      <h3>JSON Output</h3>
+      <pre id="output">
       </pre>
     </div>
     </div>
     <div class="col-sm-4">
     </div>
   </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-<script src="assets/js/serializeObject.js" type="text/javascript" charset="utf-8" async defer></script>
-<script src="assets/js/disableTextArea.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  <script src="js/serializeObject.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="js/disableTextArea.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

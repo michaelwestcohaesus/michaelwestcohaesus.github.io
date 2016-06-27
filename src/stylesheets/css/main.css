@@ -1,0 +1,22 @@
+h1, h3 {
+  font-color: #FFFF00;
+  text-align: test5; }
+
+#mainContainer {
+  border-color: black;
+  border: 2px solid black;
+  border-radius: 25px; }
+
+#output {
+  background: #eee;
+  height: 250px;
+  overflow: auto;
+  white-space: pre-wrap;
+  border: 2px solid black;
+  border-radius: 10px; }
+
+#jsonOutput {
+  padding-top: 15px; }
+
+#submit {
+  padding-top: 10px; }

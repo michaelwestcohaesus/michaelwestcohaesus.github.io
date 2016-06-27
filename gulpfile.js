@@ -30,7 +30,7 @@ gulp.task('compressjs', function () {
 	    .pipe(rename({
 	      suffix: '.min'
 	    }))
-    .pipe(gulp.dest('dist/js/'));
+        .pipe(gulp.dest('dist/js/'));
 });
 //Watch scss, css and js files for changes
 gulp.task('default', function () {

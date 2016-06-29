@@ -1,11 +1,11 @@
-#Here is a simple HTML form that outputs form data into a JSON string.
+##Here is a simple HTML form that outputs form data into a JSON string.
 
-##Setup Instructions (OSX)
-- Clone to your local machine, type the following into terminal:
+###Setup Instructions (OSX)
+####Clone to your local machine, type the following into terminal:
 ```
 git clone "https://github.com/michaelwestcohaesus/mw_questionnaire"
 ```
-#To start the default gulp task
+####To start the default gulp task, type into terminal
 ```
 cd ~/mw_questionnaire/
 ```
@@ -13,8 +13,9 @@ cd ~/mw_questionnaire/
 gulp
 ```
 into terminal to start the default watch tasks.
-- Gulp has been configured to
-concat all js files
-minify concanentated js file
-convert .scss files to .css
-minify main.css
+
+Gulp has been configured to:
+- concat all js files
+- minify concanentated main.js file
+- convert .scss files to .css
+- minify main.css

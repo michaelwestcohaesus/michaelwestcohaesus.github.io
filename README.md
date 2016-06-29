@@ -1,20 +1,24 @@
-##Here is a simple HTML form that outputs form data into a JSON string.
+##A simple HTML form that outputs form data as a JSON string.
 
-###Setup Instructions (OSX)
-####Clone to your local machine, type the following into terminal:
+##Setup Instructions (OSX)
+####In terminal, clone to your local machine, 
 ```
 git clone "https://github.com/michaelwestcohaesus/mw_questionnaire"
 ```
-####To start the default gulp task, type into terminal
+####Navigate to project directory,
 ```
 cd ~/mw_questionnaire/
 ```
+####Install dependencies,
+```
+npm install
+```
+####Start the default gulp task,
 ```
 gulp
 ```
-into terminal to start the default watch tasks.
 
-Gulp has been configured to:
+####Gulp has been configured to:
 - concat all js files
 - minify concanentated main.js file
 - convert .scss files to .css

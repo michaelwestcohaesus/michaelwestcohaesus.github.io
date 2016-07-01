@@ -3,7 +3,7 @@
 ##Setup Instructions (OSX)
 ####In terminal, clone to your local machine, 
 ```
-git clone "https://github.com/michaelwestcohaesus/mw_questionnaire"
+git clone https://github.com/michaelwestcohaesus/mw_questionnaire
 ```
 ####Navigate to project directory,
 ```

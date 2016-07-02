@@ -13,16 +13,16 @@
       <form action="" method="post" onsubmit="window.open('dist/html/thankyou.html', '_blank', 'scrollbars=no,menubar=no,height=200,width=360,resizable=yes,toolbar=no,status=no');return true;">
       <h1>Questionnaire</h1>
       <fieldset class="form-group">
-        <label for="exampleInputName" class="control-label"><strong>First Name</strong></label>
-        <input type="text" name="First Name" class="form-control" id="exampleInputName" placeholder="Enter name" required>
+        <label for="inputName" class="control-label"><strong>First Name</strong></label>
+        <input type="text" name="First Name" class="form-control" id="inputName" placeholder="Enter name" required>
       </fieldset>
       <fieldset class="form-group">
-        <label for="exampleInputEmail1" class="control-label"><strong>Email address</strong></label>
-        <input type="email" name="Email" class="form-control" id="" placeholder="Enter email" required>
+        <label for="inputEmail" class="control-label"><strong>Email address</strong></label>
+        <input type="email" name="Email" class="form-control" id="inputEmail" placeholder="Enter email" required>
         <small class="text-muted">We'll never share your email with anyone else.</small>
       </fieldset>
       <fieldset class="form-group">
-        <label for="exampleSelect1"><strong>Which age group are you in?</strong></label>
+        <label for="selectQuestion1"><strong>Which age group are you in?</strong></label>
         <select class="form-control" id="selectQuestion1" name="Question1" required>
           <option value="" disabled selected hidden class="pleaseChoose">Please Choose...</option>
           <option value="Under 18">18 and under</option>
@@ -33,7 +33,7 @@
         </select>
       </fieldset>
       <fieldset class="form-group">
-        <label for="exampleSelect1"><strong>How many apps do you currently have on your smartphone?</strong></label>
+        <label for="selectQuestion2"><strong>How many apps do you currently have on your smartphone?</strong></label>
         <select class="form-control" id="selectQuestion2" name="Question2" required>
           <option value="" disabled selected hidden class="pleaseChoose">Please Choose...</option>
           <option value="0 - 4">0 - 4</option>
@@ -43,7 +43,7 @@
         </select>
       </fieldset>
       <fieldset class="form-group">
-        <label for="exampleInputName" class="control-label"><strong>In a typical week, about how many songs or other music files do you download from the internet?</strong></label>
+        <label for="enterNumberQuestion3" class="control-label"><strong>In a typical week, about how many songs or other music files do you download from the internet?</strong></label>
         <input type="number" class="form-control" id="enterNumberQuestion3" placeholder="Enter amount" min="0" max="10000" name="Question3" required>
       </fieldset>
       <fieldset required>
@@ -110,7 +110,7 @@
         </div>
         <div class="checkbox">
           <label>
-            <input type="checkbox" id="checkboxOther" name="Question4" value="Other" onchange="setCheckbox();">
+            <input type="checkbox" id="checkboxOther" name="Question4" value="Other" onchange="toggleCheckbox();">
             Other (please specify)
           </label>
           <textarea class="form-control" id="otherQuestion4" rows="2" name="Question4" value="Other" disabled="disabled"></textarea>
@@ -120,63 +120,63 @@
         <div class="c-inputs-stacked">
         <p><strong>In a typical day, which types of apps do you use on your digital devices (computer, tablets, phones, etc.) most often?</strong></p>
           <label class="c-input c-radio">
-            <input id="radioOption1" name="Question5" value="Travel" type="radio" onchange="setRadio();" required>
+            <input id="radioOption1" name="Question5" value="Travel" type="radio" onchange="toggleRadio();" required>
             <span class="c-indicator"></span>
             Travel
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption2" name="Question5" value="News" type="radio" onchange="setRadio();">
+            <input id="radioOption2" name="Question5" value="News" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             News
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption3" name="Question5" value="Search Tools" type="radio" onchange="setRadio();">
+            <input id="radioOption3" name="Question5" value="Search Tools" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Search tools
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption4" name="Question5" value="Sports" type="radio" onchange="setRadio();">
+            <input id="radioOption4" name="Question5" value="Sports" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Sports
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption5" name="Question5" value="Productivity" type="radio" onchange="setRadio();">
+            <input id="radioOption5" name="Question5" value="Productivity" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Productivity apps (calendar, to do list, etc.)
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption6" name="Question5" value="Social Networking" type="radio" onchange="setRadio();">
+            <input id="radioOption6" name="Question5" value="Social Networking" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Social networking
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption7" name="Question5" value="Utility" type="radio" onchange="setRadio();">
+            <input id="radioOption7" name="Question5" value="Utility" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Utility apps (calculate, convert, translate, etc.)
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption8" name="Question5" value="Games" type="radio" onchange="setRadio();">
+            <input id="radioOption8" name="Question5" value="Games" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Games
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption9" name="Question5" value="Entertainment" type="radio" onchange="setRadio();">
+            <input id="radioOption9" name="Question5" value="Entertainment" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Entertainment
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption10" name="Question5" value="Weather" type="radio" onchange="setRadio();">
+            <input id="radioOption10" name="Question5" value="Weather" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Weather
           </label>
           <label class="c-input c-radio">
-            <input id="radioOption11" name="Question5" value="Other" type="radio" onchange="setRadio();">
+            <input id="radioOption11" name="Question5" value="Other" type="radio" onchange="toggleRadio();">
             <span class="c-indicator"></span>
             Other (please specify)
           </label>
           <textarea class="form-control" id="otherQuestion5" rows="2" name="Question5" value="Other" disabled="disabled"></textarea>
         </div>
-      </fieldset> 
+      </fieldset>
     <div class="col-sm-4">
     </div>
       <div class="col-sm-4" id="submit">

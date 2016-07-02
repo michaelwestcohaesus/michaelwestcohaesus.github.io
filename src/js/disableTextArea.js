@@ -1,15 +1,15 @@
 function setCheckbox(){
-var el = document.getElementById("checkboxother");
+var el = document.getElementById("checkboxOther");
 if(el.checked)
-  document.getElementById("exampleTextarea3").disabled = false;
+  document.getElementById("otherQuestion4").disabled = false;
 else
-  document.getElementById("exampleTextarea3").disabled = true;    
+  document.getElementById("otherQuestion4").disabled = true;    
 }
 
 function setRadio(){
-var el = document.getElementById("radioStacked5");
+var el = document.getElementById("radioOption11");
 if(el.checked)
-  document.getElementById("exampleTextarea1").disabled = false;
+  document.getElementById("otherQuestion5").disabled = false;
 else
-  document.getElementById("exampleTextarea1").disabled = true;    
+  document.getElementById("otherQuestion5").disabled = true;    
 }

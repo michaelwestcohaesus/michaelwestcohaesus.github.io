@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelwestcohaesus/mw_questionnaire.git"
+    "url": "git+https://github.com/michaelwestcohaesus/michaelwestcohaesus.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michaelwestcohaesus/mw_questionnaire/issues"
+    "url": "https://github.com/michaelwestcohaesus/michaelwestcohaesus.github.io/issues"
   },
-  "homepage": "https://github.com/michaelwestcohaesus/mw_questionnaire#readme",
+  "homepage": "https://github.com/michaelwestcohaesus/michaelwestcohaesus.github.io#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",

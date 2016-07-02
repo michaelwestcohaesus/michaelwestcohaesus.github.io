@@ -22,7 +22,7 @@ gulp.task('compresscss', function() {
 	    .pipe(rename({
 	  		suffix: '.min'
 		}))
-	    .pipe(gulp.dest('dist/stylesheets/css/'));
+	    .pipe(gulp.dest('dist/css/'));
 });
 //Concat js
 gulp.task('concatjs', function() {

@@ -1,5 +1,5 @@
-h1, h3 {
-  font-color: #FFFF00;
+h2, h3 {
+  color: black;
   text-align: center; }
 
 #mainContainer {
@@ -15,8 +15,5 @@ h1, h3 {
   border: 2px solid black;
   border-radius: 10px; }
 
-#jsonOutput {
+#jsonOutput, #submit {
   padding-top: 15px; }
-
-#submit {
-  padding-top: 10px; }

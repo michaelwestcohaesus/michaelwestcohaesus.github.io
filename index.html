@@ -6,12 +6,12 @@
   <link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
 </head>
 <body>
-  <div class="col-sm-12">
-    <div class="col-sm-4">
+  <div class="col-md-12">
+    <div class="col-md-4">
     </div>
-    <div class="col-sm-4" id="mainContainer">
+    <div class="col-md-4" id="mainContainer">
       <form action="" method="post" onsubmit="window.open('dist/html/thankyou.html', '_blank', 'scrollbars=no,menubar=no,height=200,width=360,resizable=yes,toolbar=no,status=no');return true;">
-      <h1>Questionnaire</h1>
+      <h2>Questionnaire</h2>
       <fieldset class="form-group">
         <label for="inputName" class="control-label"><strong>First Name</strong></label>
         <input type="text" name="First Name" class="form-control" id="inputName" placeholder="Enter name" required>
@@ -19,7 +19,7 @@
       <fieldset class="form-group">
         <label for="inputEmail" class="control-label"><strong>Email address</strong></label>
         <input type="email" name="Email" class="form-control" id="inputEmail" placeholder="Enter email" required>
-        <small class="text-muted">We'll never share your email with anyone else.</small>
+        <mdall class="text-muted">We'll never share your email with anyone else.</mdall>
       </fieldset>
       <fieldset class="form-group">
         <label for="selectQuestion1"><strong>Which age group are you in?</strong></label>
@@ -33,7 +33,7 @@
         </select>
       </fieldset>
       <fieldset class="form-group">
-        <label for="selectQuestion2"><strong>How many apps do you currently have on your smartphone?</strong></label>
+        <label for="selectQuestion2"><strong>How many apps do you currently have on your mdartphone?</strong></label>
         <select class="form-control" id="selectQuestion2" name="Question2" required>
           <option value="" disabled selected hidden id="pleaseChoose">Please Choose...</option>
           <option value="0 - 4">0 - 4</option>
@@ -177,21 +177,21 @@
           <textarea class="form-control" id="otherQuestion5" rows="2" name="Question5" value="Other" disabled="disabled"></textarea>
         </div>
       </fieldset>
-    <div class="col-sm-4">
+    <div class="col-md-4">
     </div>
-      <div class="col-sm-4" id="submit">
+      <div class="col-md-4" id="submit">
             <button type="submit" class="btn btn-primary">Submit</button>
       </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
     </div>
     </form>
-    <div class="col-sm-12" id="jsonOutput">
+    <div class="col-md-12" id="jsonOutput">
       <h3>JSON Output</h3>
       <pre id="output">
       </pre>
     </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

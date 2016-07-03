@@ -24,9 +24,16 @@ $.fn.serializeObject = function()
     return o;
 };
 
+// $('form').submit(function(event) {
+//   console.log($(this).serializeArray());
+//   event.preventDefault();
+// });
+
 $(function() {
     $('form').submit(function() {
-        $('#output').text(JSON.stringify($('form').serializeObject(), undefined, 2));
+        var data = $(this).serializeObject();
+        console.log(data);
+        $('#output').text(JSON.stringify(data, undefined, 2));
         return false;
     });
 });

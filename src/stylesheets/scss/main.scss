@@ -1,8 +1,9 @@
-$primary-color: #FFFF00;
+$primary-color: black;
 $secondary-color: #818a91;
+$padding-top-default: 15px;
 
-h1, h3 {
-	font-color: $primary-color;
+h2, h3 {
+	color: $primary-color;
 	text-align: center;
 }
 
@@ -21,10 +22,6 @@ h1, h3 {
 	border-radius: 10px;
 }
 
-#jsonOutput {
-	padding-top: 15px;
-}
-
-#submit {
-	padding-top: 10px;
+#jsonOutput, #submit  {
+	padding-top: $padding-top-default;
 }

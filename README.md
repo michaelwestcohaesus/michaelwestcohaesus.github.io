@@ -3,11 +3,11 @@
 ##Setup Instructions (OSX)
 ####In terminal, clone to your local machine, 
 ```
-git clone https://github.com/michaelwestcohaesus/mw_questionnaire
+git clone https://github.com/michaelwestcohaesus/michaelwestcohaesus.github.io
 ```
 ####Navigate to project directory,
 ```
-cd ~/mw_questionnaire/
+cd ~/michaelwestcohaesus.github.io
 ```
 ####Install dependencies,
 ```

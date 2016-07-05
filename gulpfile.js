@@ -6,6 +6,7 @@ var cssnano = require('gulp-cssnano');
 var uglify = require('gulp-uglify');
 var rename = require("gulp-rename");
 var concat = require('gulp-concat');
+var htmlmin = require('gulp-htmlmin');
 
 //Convert scss to css
 gulp.task('sass', function () {
@@ -37,8 +38,15 @@ gulp.task('compressjs', function () {
 	    }))
         .pipe(gulp.dest('dist/js/'));
 });
+//Minifiy html
+gulp.task('minifyhtml', function() {
+  return gulp.src('src/html/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('dist/html/'));
+});
 //Watch scss, css and js files for changes
 gulp.task('default', function () {
+	gulp.watch(['src/html/*.html'], ['minifyhtml']);
 	gulp.watch(['src/stylesheets/scss/*.scss'], ['sass']);
 	gulp.watch(['src/stylesheets/css/*.css'], ['compresscss']);
 	gulp.watch(['src/js/*.js'], ['concatjs']);
